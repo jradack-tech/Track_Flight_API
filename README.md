@@ -7,11 +7,13 @@ Goal: To create a simple microservice API that can help us understand and track 
 ### Specifications
 * Your miscroservice must listen on port 8080 and expose the flight path tracker under the /calculate endpoint.
 
-### How to run
-* go run . or go run main.go
+### How to run and build
+* go run . (go run main.go)
+* go build .
 
 ### Usage
 * Connect to the API using Postman on port 8080.
+* http://localhost:8080 
 
 ### API Endpoints
 | HTTP Verbs | Endpoints | Action | 
